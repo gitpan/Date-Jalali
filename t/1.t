@@ -24,3 +24,8 @@ my $t2 = new Date::Jalali (2003,6,12); #today
 is  ($t2->jal_day, 22 , "Haha! Day Error!");
 is  ($t2->jal_month, 3 , "Haha! Month Error!");
 is  ($t2->jal_year, 1382 , "Haha! Year Error!");
+
+my $t3 = new Date::Jalali (2012,7,21,1); #today 2012
+is  ($t2->jal_day, 31 , "Haha! Day Error!");
+is  ($t2->jal_month, 4 , "Haha! Month Error!");
+is  ($t2->jal_year, 1391 , "Haha! Year Error!");

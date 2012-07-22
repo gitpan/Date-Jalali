@@ -17,7 +17,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my @g_days_in_month = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
 my @j_days_in_month = (31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29);
@@ -73,7 +73,7 @@ sub new {
 	   $self->{jal_year}=$jy;
 
 	   bless $self;
-   	return $self;
+	   return $self;
    } else {
   	  my ($jy,$jm,$jd)=($y-979,$m-1,$d-1);
 	  my $self={};
@@ -184,11 +184,13 @@ http://www.cpan.org/
 =head1 AUTHOR
 
 Ahmad Anvari <http://www.anvari.org/bio/>
+
 Redistributed by : Ehsan Golpayegani <http://www.golpayegani.com>
 
 =head1 COPYRIGHT AND LICENSE
 
 Copyright 2003 by Ahmad Anvari
+
 Copyright 2012 by Ehsan Golpayegani
 
 The original algorithm was written with regards to Gregorian<->Jalali

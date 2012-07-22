@@ -1,4 +1,4 @@
-Date/Jalali version 0.04
+Date/Jalali version 0.05
 ========================
 
 Date::Jalali
@@ -23,6 +23,7 @@ This module requires these other modules and libraries:
 COPYRIGHT AND LICENCE
 
 Copyright (C) 2003 Ahmad Anvari
+
 Copyright (C) 2012 Ehsan Golpayegani
 
 This library is free software; you can redistribute it and/or modify
